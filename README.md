@@ -1,6 +1,6 @@
-# EXPERIMENTAL PROJECT - datalogic-android-sdk
+# EXPERIMENTAL PROJECT - datalogic-android-sdk-selfshopping
 
-Datalogic Androd SDK - see https://datalogic.github.io/ for details.  
+Datalogic Androd SDK Selfshopping extension - see https://datalogic.github.io/ for details.  
 
 ## How to use
 
@@ -25,7 +25,7 @@ allprojects {
 
 ## Add a dependency on the SDK
 
-Add a reference to the specific version of the SDK you would like to use to your `app/build.gradle` file. In this example, we are using version `1.12`. You can see a list of all released versions [here](https://github.com/datalogic/datalogic-android-sdk/releases).
+Add a reference to the specific version of the SDK you would like to use to your `app/build.gradle` file. In this example, we are using version `1.8`. You can see a list of all released versions [here](https://github.com/datalogic/datalogic-android-sdk/releases). Look for references to the Selfshopping extension.
 
 ```gradle
 dependencies {
@@ -34,6 +34,7 @@ dependencies {
 ```
 
 ## Next steps
+
 - A number of sample projects that use the Datalogic Android SDK are maintained on our [Tutorials page](http://datalogic.github.io/tutorials/).
 
 - Reference material for the Datalogic Android SDK is maintained at [this location](https://datalogic.github.io/android-sdk-docs/reference/packages.html).
