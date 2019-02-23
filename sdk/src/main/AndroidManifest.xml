@@ -1,8 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.datalogic.android.sdk">
 
-<uses-library
-        android:name="com.datalogic.extension.selfshopping"
-        android:required="true" />
-        
+    <application>
+        <uses-library
+            android:name="com.datalogic.extension.selfshopping"
+            android:required="true" />
+    </application>
 </manifest>
