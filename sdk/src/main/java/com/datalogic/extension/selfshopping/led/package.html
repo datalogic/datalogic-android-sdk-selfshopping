@@ -1,0 +1,24 @@
+<html>
+<body>
+        <p>This package contains the
+        {@link com.datalogic.extension.selfshopping.led.SelfshoppingLedManager}
+        used to command the available LEDs.
+        The manager exposed methods allow to retrieve the list of available LEDs, 
+        retrieve a single LED given its ID or
+        execute a {@link com.datalogic.extension.selfshopping.led.action.LedAction}.</p>
+
+        <p>On each LED is possible to execute different methods depending on its
+        interface: the standard {@link com.datalogic.extension.selfshopping.led.Led}
+        allows to turn ON/OFF or blink the specific LED, while the
+        {@link com.datalogic.extension.selfshopping.led.DimmingLed} also
+        allows to set a specific brightness level or start a
+        {@link com.datalogic.extension.selfshopping.led.DimmingSequence}
+        characterized by <code>(time, brightness)</code> pairs (objects of class
+	{@link com.datalogic.extension.selfshopping.led.DimmingSequencePoint}).</p>
+
+        <p>The same methods available through interfaces can be described with
+	specific {@link com.datalogic.extension.selfshopping.led.action.LedAction}
+	objects, which are available in the sub package
+	{@link com.datalogic.extension.selfshopping.led.action}.</p>
+</body>
+</html>
