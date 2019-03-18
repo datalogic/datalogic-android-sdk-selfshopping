@@ -25,11 +25,11 @@ allprojects {
 
 ## Add a dependency on the SDK
 
-Add a reference to the specific version of the SDK you would like to use to your `app/build.gradle` file. In this example, we are using version `1.8`. You can see a list of all released versions [here](https://github.com/datalogic/datalogic-android-sdk/releases). Look for references to the Selfshopping extension.
+Add a reference to the specific version of the SDK you would like to use to your `app/build.gradle` file. In this example, we are using version `1.8a`. You can see a list of all released versions [here](https://github.com/datalogic/datalogic-android-sdk/releases). Look for references to the Selfshopping extension.
 
 ```gradle
 dependencies {
-    implementation 'com.github.datalogic:datalogic-android-sdk-selfshopping:1.8'
+    implementation 'com.github.datalogic:datalogic-android-sdk-selfshopping:1.8a'
 }
 ```
 
