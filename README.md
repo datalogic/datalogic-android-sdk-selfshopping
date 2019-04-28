@@ -1,4 +1,4 @@
-# EXPERIMENTAL PROJECT - datalogic-android-sdk-selfshopping
+# datalogic-android-sdk-selfshopping
 
 Datalogic Androd SDK Selfshopping extension - see https://datalogic.github.io/ for details.  
 
